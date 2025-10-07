@@ -1,0 +1,16 @@
+{
+  "name": "movie-ticket-api",
+  "version": "1.0.0",
+  "description": "Movie Ticket CRUD API using Node.js and Cassandra",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "cassandra-driver": "^4.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "uuid": "^13.0.0"
+  }
+}
